@@ -4,6 +4,8 @@ import SideDrawer from './components/sideDrawer/SideDrawer';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import Backdrop from './components/Backdrop/Backdrop';
 import Gallery from './components/Gallery/Gallery';
+import Footer from './components/footer/Footer';
+
 const App = () => {
   const [toggle, setToggle] = useState(false)
     const drawerToggleHandler = () => {
@@ -27,7 +29,7 @@ const App = () => {
                 <Switch>
                     <Route path="/gallery" component={Gallery} />
                 </Switch>
-
+<Footer />
             </div>
         </Router>
 
