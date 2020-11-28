@@ -3,7 +3,7 @@ import Header from './components/Header/Header';
 import SideDrawer from './components/sideDrawer/SideDrawer';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import Backdrop from './components/Backdrop/Backdrop';
-
+import Gallery from './components/Gallery/Gallery';
 const App = () => {
   const [toggle, setToggle] = useState(false)
     const drawerToggleHandler = () => {
@@ -25,7 +25,7 @@ const App = () => {
                 <SideDrawer show={toggle} />
                 {backdrop}
                 <Switch>
-                    
+                    <Route path="/gallery" component={Gallery} />
                 </Switch>
 
             </div>

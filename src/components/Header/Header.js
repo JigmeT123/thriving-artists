@@ -27,20 +27,19 @@ const Header = ({drawerClick}) => {
             <nav className={styles.header__navigation}>
 
                 <ul>
-                   
                     <Link to="/">
                         <li>Home</li>
                     </Link>
-                    <Link to="/about">
+                    <Link to="/aboutUs">
                         <li>About Us</li>
                     </Link>
                     <Link to="/">
                         <img className={styles.header__logo} src={logo} alt="CompanyLogo"/>
                     </Link>
-                    <Link to="/services">
+                    <Link to="/gallery">
                         <li>Gallery</li>
                     </Link>
-                    <Link to="/services">
+                    <Link to="/contactUs">
                         <li>Contact Us</li>
                     </Link>
                 </ul>

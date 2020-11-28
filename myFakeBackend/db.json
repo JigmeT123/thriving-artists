@@ -1,0 +1,85 @@
+{
+    "artists":[
+        {
+            "id": 1,
+            "firstName": "Jigme",
+            "lastName": "Namgyal",
+            "email": "jigmetashi02@gmail.com",
+            "artistPic": "https://images-na.ssl-images-amazon.com/images/I/71N9bGfQSfL._SX679_.jpg",
+            "artDescription": "This is a cool art by me. I don't know what else to write lol But i gotta write something"
+
+        },
+        {
+            "id": 2,
+            "firstName": "Fatima",
+            "lastName": "Khalifali ",
+            "email": "Fatima@gmail.com",
+            "artistPic": "https://media.npr.org/assets/img/2012/02/02/mona-lisa-copy_custom-cf935c261c640b9ff7e214059a0328c880c22f50-s800-c85.jpg",
+            "artDescription": "This is a cool art by me. I don't know what else to write lol But i gotta write something"
+        },
+        {
+            "id": 3,
+            "firstName": "Rahim",
+            "lastName": "Badalzada",
+            "email": "Rahim@gmail.com",
+            "artistPic": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/757px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
+            "artDescription": "This is a cool art by me. I don't know what else to write lol But i gotta write something"
+        },
+        {
+            "id": 4,
+            "firstName": "Safa",
+            "lastName": "Alasgarova",
+            "email": "Safa@gmail.com",
+            "artistPic": "https://cdn.britannica.com/83/190483-050-FE927054/Self-Portrait-canvas-Vincent-van-Gogh-National-Gallery-1889.jpg",
+            "artDescription": "This is a cool art by me. I don't know what else to write lol But i gotta write something"
+        },
+        {
+            "id": 5,
+            "firstName": "Zamin",
+            "lastName": "Huseynov",
+            "email": "Zamin@gmail.com",
+            "artistPic": "https://images-na.ssl-images-amazon.com/images/I/71N9bGfQSfL._SX679_.jpg",
+            "artDescription": "This is a cool art by me. I don't know what else to write lol But i gotta write something"
+        },
+        {
+            "id": 6,
+            "firstName": "John",
+            "lastName": "Doe",
+            "email": "jigmetasho02@gmail.com",
+            "artistPic": "https://images-na.ssl-images-amazon.com/images/I/71N9bGfQSfL._SX679_.jpg",
+            "artDescription": "This is a cool art by me. I don't know what else to write lol But i gotta write something"
+        },
+        {
+            "id": 7,
+            "firstName": "Karma",
+            "lastName": "Tashi",
+            "email": "karma@gmail.com",
+            "artistPic": "https://images-na.ssl-images-amazon.com/images/I/71N9bGfQSfL._SX679_.jpg",
+            "artDescription": "This is a cool art by me. I don't know what else to write lol But i gotta write something"
+        },
+        {
+            "id": 8,
+            "firstName": "Jonny",
+            "lastName": "Woo",
+            "email": "johnny@gmail.com",
+            "artistPic": "https://images-na.ssl-images-amazon.com/images/I/71N9bGfQSfL._SX679_.jpg",
+            "artDescription": "This is a cool art by me. I don't know what else to write lol But i gotta write something"
+        },
+        {
+            "id": 9,
+            "firstName": "Khalid",
+            "lastName": "Namgyal",
+            "email": "khalid@gmail.com",
+            "artistPic": "https://images-na.ssl-images-amazon.com/images/I/71N9bGfQSfL._SX679_.jpg",
+            "artDescription": "This is a cool art by me. I don't know what else to write lol But i gotta write something"
+        },
+        {
+            "id": 10,
+            "firstName": "random",
+            "lastName": "name",
+            "email": "randomName@gmail.com",
+            "artistPic": "https://images-na.ssl-images-amazon.com/images/I/71N9bGfQSfL._SX679_.jpg",
+            "artDescription": "This is a cool art by me. I don't know what else to write lol But i gotta write something"
+        }
+    ]
+}
