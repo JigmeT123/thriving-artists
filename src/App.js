@@ -6,6 +6,7 @@ import Backdrop from './components/Backdrop/Backdrop';
 import Gallery from './components/Gallery/Gallery';
 import Footer from './components/footer/Footer';
 import ArtistProfile from './components/artistProfile/ArtistProfile';
+import Contact from './components/ContactUs/Contact';
 
 const App = () => {
   const [toggle, setToggle] = useState(false)
@@ -22,6 +23,7 @@ const App = () => {
         backdrop = <Backdrop back={backDropHandler}/>
     }
     return (
+
         <Router>
             <div className="App">
                 <Header drawerClick={drawerToggleHandler}/>
@@ -29,6 +31,7 @@ const App = () => {
                 {backdrop}
                 <Switch>
                     <Route path="/gallery" component={Gallery} />
+                    <Route path="/contactUs" component={Contact} />
                     <Route path="/:artist_id" component={ArtistProfile} />
                 </Switch>
 <Footer />
