@@ -13,10 +13,13 @@ const SideDrawer = ({show}) => {
                     <Link to="/">Home</Link>
                 </li>
                 <li>
-                    <Link to="/about">About</Link>
+                    <Link to="/aboutUs">About Us</Link>
                 </li>
                 <li>
-                    <Link to="/services">Services</Link>
+                    <Link to="/gallery">Artist Profile</Link>
+                </li>
+                <li>
+                    <Link to="/contactUs">Contact Us</Link>
                 </li>
             </ul>
         </nav>

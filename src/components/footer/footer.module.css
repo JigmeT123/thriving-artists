@@ -160,6 +160,9 @@
     font-weight: 400;
 }
 
+a{
+    text-decoration: none;
+}
 
 @media only screen and (max-width: 854px) {
     .footerOne > p {

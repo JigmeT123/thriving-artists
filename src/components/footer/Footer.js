@@ -28,29 +28,29 @@ const Footer = () => {
 
                 <div className={styles.footerTwo}>
                     <h4>Quick Links</h4>
-                    <Link href="/">Home</Link>
-                    <Link href="/beats">Beats</Link>
+                    <Link to="/">Home</Link>
+                    <Link to="/gallery">Artist Profile</Link>
                     
                 </div>
                 <div className={styles.footerFour}>
                     <h4>About Us</h4>
-                    <Link href="/aboutUs">About Us</Link>
-                    <Link href="/contactUs">Contact Us</Link>
+                    <Link to="/aboutUs">About Us</Link>
+                    <Link to="/contactUs">Contact Us</Link>
                    
-                </div>
+                </div>to
                 <div className={styles.footerThree}>
                     <h4>Legal</h4>
-                    <Link href="/">Terms and condition
+                    <Link to="/">Terms and condition
                     </Link>
-                    <Link href="/">Privacy and Policy</Link>
+                    <Link to="/">Privacy and Policy</Link>
                 </div>
             </div>
             <div className={styles.line}></div>
             <div className={styles.footerChildTwoContainer}>
                 <div className={styles.footerTwoContainer}>
                     <p>
-                        &copy;Wk Beats Bhutan 2020-
-                        <span>making is the Cool beats la.</span>
+                        &copy;Thriving-Artists 2020-
+                        <span>supporting local artist </span>
                     </p>
                 </div>
             </div>

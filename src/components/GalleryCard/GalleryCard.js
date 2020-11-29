@@ -8,13 +8,17 @@ import {
     CardContent,
     Typography
 } from '@material-ui/core';
-// import {Link} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
-const GalleryCard = ({images, description, artistName}) => {
+const GalleryCard = ({images, description, artistName, id}) => {
+    console.log(id)
     return (
         <Card className={styles.galleryCard}>
             <CardActionArea>
-                <CardMedia className={styles.galleryCardMedia} image={images}/>
+                <Link to={'/' + id}>
+                    <CardMedia className={styles.galleryCardMedia} image={images}/>
+                </Link>
+               
             </CardActionArea>
             <CardContent>
                 <Typography>{description}</Typography>
@@ -27,9 +31,11 @@ const GalleryCard = ({images, description, artistName}) => {
             </CardContent>
 
             <CardActions>
+            <Link to={'/' + id}>
                 <Button size="small" color="primary">
                     Learn More
                 </Button>
+            </Link>
             </CardActions>
         </Card>
     )

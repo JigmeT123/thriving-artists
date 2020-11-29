@@ -1,0 +1,64 @@
+.artistProfile{
+    margin-top: 12vh;
+    padding: 20px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profileContainer{
+    display: grid;
+    grid-template-columns: 40% auto;
+}
+.artImageOfArtist{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ddc4b5;
+    /* box-shadow: 8px 6px 1.5px #ddc4b5; */
+}
+.profileArtPic{
+    width: 90%;
+    height: 90%;
+}
+.artistInfo{
+    padding: 20px;
+    margin-left: 20px;
+}
+.artistInfoCard{
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+.profileInfoBottom{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.profileInfoHeader > div{
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 150px;
+    margin-bottom: 20px;
+}
+.artistBtn{
+    padding: 10px !important;
+    background-color: #ddc4b5 !important;
+    font-size: 12px !important;
+    margin-right: 40px !important;
+    color: white !important;
+}
+
+.infoName{
+    color: gray;
+}
+
+span{
+    color: black;
+    font-weight: bold;
+}
