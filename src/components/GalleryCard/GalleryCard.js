@@ -18,7 +18,12 @@ const GalleryCard = ({images, description, artistName}) => {
             </CardActionArea>
             <CardContent>
                 <Typography>{description}</Typography>
-                <p className={styles.artistName}>{artistName}</p>
+                <div className={styles.cardInfo}>
+                    <p className={styles.artistName}>{artistName}</p>
+                    <p className={styles.artistName}>20$</p>
+                    
+                </div>
+                
             </CardContent>
 
             <CardActions>

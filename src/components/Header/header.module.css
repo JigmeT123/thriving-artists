@@ -11,12 +11,25 @@
     background-color: white;
     transition: all 0.3s ease-in-out;
 }
+.header__logoContainer{
+    width: 100px;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
 .header__logo{
-    margin-top: -10px;
-    transition: all 0.2 ease-in-out;
+    width: 100px !important;
+    height: 100%;
+    transform: scale(2);
+    transition: all 0.2s ease-in-out;
 }
 .header__scrolled {
-    height: 8vh;
+    height: 9vh;
+}
+.header__scrolled .header__logo {
+    transform: scale(1);
+    height: 9vh;
+
 }
 
 .header__navigation{

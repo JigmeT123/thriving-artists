@@ -1,4 +1,4 @@
-.gallery{
+.gallery {
     margin-top: 12vh;
     padding: 30px;
 }
@@ -8,11 +8,10 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #95674b;
 }
-.galleryContent{
+.galleryContent {
     padding-top: 20px;
-    display: flex;
-    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    place-items: center;
     overflow-x: scroll;
-    justify-content: space-evenly;
-    align-items: center;
 }

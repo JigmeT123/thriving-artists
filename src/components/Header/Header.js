@@ -30,15 +30,19 @@ const Header = ({drawerClick}) => {
                     <Link to="/">
                         <li>Home</li>
                     </Link>
+                    <Link to="/gallery">
+                        <li>Artist Profile</li>
+                    </Link>
+                    <Link to="/">
+                        <div className={styles.header__logoContainer}>
+                            <img className={styles.header__logo} src={logo} alt="CompanyLogo"/>
+                        </div>
+                       
+                    </Link>
                     <Link to="/aboutUs">
                         <li>About Us</li>
                     </Link>
-                    <Link to="/">
-                        <img className={styles.header__logo} src={logo} alt="CompanyLogo"/>
-                    </Link>
-                    <Link to="/gallery">
-                        <li>Gallery</li>
-                    </Link>
+                   
                     <Link to="/contactUs">
                         <li>Contact Us</li>
                     </Link>
