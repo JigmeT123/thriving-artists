@@ -40,8 +40,9 @@
     align-items: center;
 }
 .profileInfoHeader > div{
-    background-color: lightgray;
+    background-color: #ddc4b5;
     display: flex;
+    padding: 10px;
     flex-direction: column;
     justify-content: center;
     height: 150px;

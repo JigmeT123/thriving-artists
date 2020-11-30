@@ -1,6 +1,7 @@
 .contactUsContainer{
     position: relative;
-    height: 800px;
+    margin-top: 2vh;
+    height: 900px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,8 +26,9 @@
 .formContainer{
     margin: 0 auto;
     width: 80%;
+    height: auto;
     background-color: white;
-    padding: 25px;
+    padding: 20px 25px;
 }
 .formStyle > label{
     color: #000000;

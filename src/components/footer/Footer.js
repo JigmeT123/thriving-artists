@@ -37,7 +37,7 @@ const Footer = () => {
                     <Link to="/aboutUs">About Us</Link>
                     <Link to="/contactUs">Contact Us</Link>
                    
-                </div>to
+                </div>
                 <div className={styles.footerThree}>
                     <h4>Legal</h4>
                     <Link to="/">Terms and condition

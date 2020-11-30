@@ -7,6 +7,7 @@ import Gallery from './components/Gallery/Gallery';
 import Footer from './components/footer/Footer';
 import ArtistProfile from './components/artistProfile/ArtistProfile';
 import Contact from './components/ContactUs/Contact';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => {
   const [toggle, setToggle] = useState(false)
