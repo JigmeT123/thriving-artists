@@ -1,0 +1,46 @@
+.profileCard{
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    height: 300px;
+}
+.profileActionArea{
+    flex: 0.35;
+    height: 100%;
+}
+.profileCardActions{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+    /* align-items: center; */
+}
+.galleryCardMedia{
+    height: 80%;
+    width: 80%;
+    margin: 0 auto;
+    background-size: cover !important;
+}
+
+.profileContent{
+ width: 100%;   
+ margin-left: -16px;
+}
+.artistName{
+    font-weight: 500;
+}
+.btnProfile{
+    padding: 10px 20px !important;
+   border: 1px solid #ddc4b5 !important;
+    
+}
+.btnProfile:hover{
+    background-color: #ddc4b5 !important;
+}
+
+a:hover{
+    text-decoration: none;
+}

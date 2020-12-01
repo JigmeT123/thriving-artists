@@ -50,8 +50,11 @@
 }
 
 @media only screen and (min-width: 700px) {
+    .contactUsContainer{
+        width: 100%;
+        padding: 100px;
+    }
     .formStyle > label{
-        
         margin-top: 30px;
         
     }

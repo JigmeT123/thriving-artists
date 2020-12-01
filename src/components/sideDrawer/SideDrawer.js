@@ -16,7 +16,7 @@ const SideDrawer = ({show}) => {
                     <Link to="/aboutUs">About Us</Link>
                 </li>
                 <li>
-                    <Link to="/gallery">Artist Profile</Link>
+                    <Link to="/profile">Artist Profile</Link>
                 </li>
                 <li>
                     <Link to="/contactUs">Contact Us</Link>

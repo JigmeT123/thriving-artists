@@ -30,7 +30,7 @@ const Header = ({drawerClick}) => {
                     <Link to="/">
                         <li>Home</li>
                     </Link>
-                    <Link to="/gallery">
+                    <Link to="/profile">
                         <li>Artist Profile</li>
                     </Link>
                     <Link to="/">

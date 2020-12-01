@@ -17,7 +17,6 @@ const ArtistProfile = (props) => {
             })
 
     }, [])
-    console.log(artistProfile);
     return (
         <div className={styles.artistProfile}>
             <div className={styles.profileContainer}>

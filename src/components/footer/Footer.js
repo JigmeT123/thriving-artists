@@ -29,7 +29,7 @@ const Footer = () => {
                 <div className={styles.footerTwo}>
                     <h4>Quick Links</h4>
                     <Link to="/">Home</Link>
-                    <Link to="/gallery">Artist Profile</Link>
+                    <Link to="/profile">Artist Profile</Link>
                     
                 </div>
                 <div className={styles.footerFour}>

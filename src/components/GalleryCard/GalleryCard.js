@@ -11,7 +11,7 @@ import {
 import {Link} from 'react-router-dom';
 
 const GalleryCard = ({images, description, artistName, id}) => {
-    console.log(id)
+
     return (
         <Card className={styles.galleryCard}>
             <CardActionArea>
@@ -25,7 +25,6 @@ const GalleryCard = ({images, description, artistName, id}) => {
                 <div className={styles.cardInfo}>
                     <p className={styles.artistName}>{artistName}</p>
                     <p className={styles.artistName}>20$</p>
-                    
                 </div>
                 
             </CardContent>
