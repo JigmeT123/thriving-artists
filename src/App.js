@@ -9,6 +9,7 @@ import ArtistProfile from './components/artistProfile/ArtistProfile';
 import Contact from './components/ContactUs/Contact';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Profile from './components/Profile/Profile';
+import About from './components/AboutUs/About';
 
 const App = () => {
   const [toggle, setToggle] = useState(false)
@@ -35,6 +36,7 @@ const App = () => {
                     <Route exact path="/" component={Gallery} />
                     <Route path="/contactUs" component={Contact} />
                     <Route path="/profile" component={Profile} />
+                    <Route path="/aboutUs" component={About} />
                     <Route path="/:artist_id" component={ArtistProfile} />
                 </Switch>
 <Footer />
