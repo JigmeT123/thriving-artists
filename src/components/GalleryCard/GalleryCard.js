@@ -14,7 +14,7 @@ const GalleryCard = ({images, description, artistName, id}) => {
 
     return (
         <Card className={styles.galleryCard}>
-            <CardActionArea>
+            <CardActionArea className={styles.imgholder}>
                 <Link to={'/' + id}>
                     <CardMedia className={styles.galleryCardMedia} image={images}/>
                 </Link>

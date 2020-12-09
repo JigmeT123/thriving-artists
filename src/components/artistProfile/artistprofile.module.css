@@ -6,6 +6,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .profileContainer{
     display: grid;
@@ -16,8 +17,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #ddc4b5;
+    /* background-color: #ddc4b5; */
     /* box-shadow: 8px 6px 1.5px #ddc4b5; */
+    box-shadow: 0.5px -2px 5px 20px #000000 !important;
+    margin-left: 10px;
 }
 .profileArtPic{
     width: 90%;
@@ -32,6 +35,7 @@
     display: flex;
     flex-direction: column;
     padding: 40px;
+    box-shadow: 10px 12px 5px 5px #beb5aa !important;
 }
 .profileInfoBottom{
     display: flex;
@@ -40,7 +44,7 @@
     align-items: center;
 }
 .profileInfoHeader > div{
-    background-color: #ddc4b5;
+    background-color: #ffffff;
     display: flex;
     padding: 10px;
     flex-direction: column;

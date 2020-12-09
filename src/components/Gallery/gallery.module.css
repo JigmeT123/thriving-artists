@@ -1,6 +1,7 @@
 .gallery {
     margin-top: 12vh;
-    padding: 30px;
+    /* padding: 10px; */
+    
 }
 .gallery > h1 {
     width: 100%;

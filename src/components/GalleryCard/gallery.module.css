@@ -1,25 +1,28 @@
-.galleryCard{
-    width: 300px;
-    padding: 15px;
-    margin-top: 20px;
+.galleryCard {
+    width: 310px;
+    /* padding: 15px; */
+    margin-top: 35px;
+    box-shadow: 10px 10px 5px 5px #beb5aa !important;
 }
-.galleryCard:hover{
+.galleryCard:hover {
     transform: scale(1.06);
     transition: all 0.3s ease-in;
 }
-
-
-.galleryCardMedia{
-    width: 100%;
+/* .imgholder{
     height: 200px;
-    background-size: contain !important;
+} */
+
+.galleryCardMedia {
+    width: 100%;
+    height: 300px;
+    background-size: cover !important;
     background-color: #EBDDCC;
 }
-.artistName{
+.artistName {
     font-size: 12px;
     color: gray;
 }
-.cardInfo{
+.cardInfo {
     display: flex;
     width: 100%;
     justify-content: space-between;
