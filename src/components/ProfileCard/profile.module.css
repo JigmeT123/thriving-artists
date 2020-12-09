@@ -3,7 +3,7 @@
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    margin: 20px;
+    margin: 10px 20px;
     height: 300px;
     box-shadow: 10px 12px 5px 5px #beb5aa !important;
 }

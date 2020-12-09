@@ -54,10 +54,14 @@
 }
 .artistBtn{
     padding: 10px !important;
-    background-color: #ddc4b5 !important;
+    border: 1px solid#ddc4b5 !important;
     font-size: 12px !important;
     margin-right: 40px !important;
     color: white !important;
+    font-size: 11px !important;
+}
+.artistBtn:hover{
+   background-color: #ddc4b5 !important;
 }
 
 .infoName{
@@ -66,5 +70,5 @@
 
 span{
     color: black;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
