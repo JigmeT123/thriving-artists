@@ -1,7 +1,9 @@
 .galleryCard {
-    width: 320px;
+    min-width: 320px;
     /* padding: 15px; */
     margin-top: 35px;
+    margin-right: 20px;
+    margin-left: 20px;
     box-shadow: 10px 10px 5px 5px #beb5aa !important;
 }
 .galleryCard:hover {

@@ -15,8 +15,10 @@
 .galleryContent {
     padding-top: 20px;
     padding-bottom: 40px;
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    place-items: center;
-    overflow-x: scroll;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* grid-template-columns: auto auto auto auto; */
+    /* overflow-x: scroll; */
 }
