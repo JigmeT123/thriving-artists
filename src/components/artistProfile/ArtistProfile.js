@@ -2,6 +2,7 @@ import styles from './artistprofile.module.css';
 import {useEffect, useState} from 'react';
 import axios from 'axios';
 import {Card, Button} from '@material-ui/core';
+import {Link} from 'react-router-dom';
 
 const ArtistProfile = (props) => {
     const [id, setId] = useState(null);
@@ -38,7 +39,7 @@ const ArtistProfile = (props) => {
                         </div>
                         <div className={styles.profileInfoBottom}>
                             <p className={styles.infoName}><span>Artist:</span> {`${artistProfile.firstName} ${artistProfile.lastName}`}</p>
-                            <Button className={styles.artistBtn}>{artistProfile.email}</Button>
+                            <Link to={`/profile/` + id}><Button className={styles.artistBtn}>Contact the artist</Button></Link>
                         </div>
 
                     </Card>

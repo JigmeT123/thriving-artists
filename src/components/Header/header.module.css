@@ -1,5 +1,5 @@
 .header{
-    height: 12vh;
+    height: 11vh;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -21,6 +21,7 @@
 .header__logo{
     width: 100px !important;
     height: 100%;
+    margin-top: 8px;
     transform: scale(2);
     transition: all 0.2s ease-in-out;
 }
@@ -47,8 +48,10 @@
 }
 .header__navigation > ul > a > li{
    list-style-type: none;
-   padding: 20px;
+   padding: 30px;
    border-radius: 3px;
+   font-size: 23px;
+   font-weight: 500;
 }
 
 .header__navigation > ul > a{

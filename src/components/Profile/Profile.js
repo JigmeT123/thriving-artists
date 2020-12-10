@@ -15,7 +15,7 @@ const Profile = () => {
     
     return (
         <div className={styles.profile}>
-            <h1>List Of Artist</h1>
+            <h1>Artists</h1>
             {artists && artists.map(artist => (
                  <ProfileCard key={artist.id} id={artist.id} name={`${artist.firstName} ${artist.lastName}`} profilePic={artist.artistPic} profileDescription={artist.artDescription} insta={artist.instaAccount}/>
             )) }

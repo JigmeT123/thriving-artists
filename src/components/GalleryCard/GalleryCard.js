@@ -22,15 +22,15 @@ const GalleryCard = ({images, description, artistName, id}) => {
             </CardActionArea>
             <CardContent className={styles.cardInfo}>
                 {/* <Typography>{description}</Typography> */}
-                    <p className={styles.artistName}>{artistName}</p>
-                    <p className={styles.artistName}>20$</p>
+                    <p className={styles.artName}>MonaLisa</p>
+                    <p className={styles.artName}>20$</p>
                 
             </CardContent>
 
             <CardActions>
             <Link to={'/' + id}>
-                <Button size="small" color="primary">
-                    Learn More
+                <Button size="small" color="secondary">
+                <p className={styles.artistName}>{artistName}</p>
                 </Button>
             </Link>
             </CardActions>

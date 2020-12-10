@@ -14,7 +14,7 @@ const Gallery = () => {
 
     return (
         <div className={styles.gallery}>
-           <h1>Gallery sections</h1> 
+           <h1>Gallery</h1> 
            <div className={styles.galleryContent}>
                {
                    artists && artists.map(artist => (

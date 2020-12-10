@@ -10,5 +10,12 @@
 .profile > h1{
     text-align: center;
     color: #95674b;
-    margin: 40px 0;
+    /* margin: 40px 0; */
+    font-size: 55px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    color: #cb997e;
+    font-family: 'Architects Daughter', cursive;
+    font-weight: bolder;
+    letter-spacing: 5px;
 }

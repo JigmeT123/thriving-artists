@@ -18,10 +18,18 @@
     margin-left: auto;
     margin-right: auto;
 }
+.contactUsTitleHolder > h3{
+    font-size: 55px;
+    /* padding-top: 50px;
+    padding-bottom: 30px; */
+    color: #cb997e;
+    font-family: 'Architects Daughter', cursive;
+}
 .titleContent{
     color: #000000;
     text-align: center;
     margin-top: 15px;
+    font-size: 20px;
 }
 .formContainer{
     margin: 0 auto;
@@ -33,6 +41,7 @@
 .formStyle > label{
     color: #000000;
     margin-top: 20px;
+    font-size: 16.5px;
     
 }
 

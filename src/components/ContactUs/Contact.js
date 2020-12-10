@@ -23,7 +23,6 @@ const Contact = () => {
     return (
         <div className={styles.contactUsContainer}>
             <div className={styles.contactUsTitleHolder}>
-                <p>Got a Questions</p>
                 <h3>Contact Us</h3>
                 <p className={styles.titleContent}>We’re here to help and answer any question
                     you might have. We look forward to hearing from you 🙂</p>

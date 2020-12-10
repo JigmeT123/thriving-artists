@@ -14,6 +14,9 @@
     height: 200px;
 } */
 
+.artName{
+    font-size: 23px;
+}
 .galleryCardMedia {
     width: 100%;
     height: 330px;
