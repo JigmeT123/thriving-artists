@@ -22,6 +22,9 @@ const Header = ({drawerClick}) => {
         <div className={`${styles.header} ${handleShow && styles.header__scrolled}`}>
             <div className={styles.extra}>
                 <ToggleBtn click={drawerClick}/>
+                <div className={styles.header__logoContainer1}>
+                    <img className={styles.header__logo1} src={logo} alt="CompanyLogo"/>
+                </div>
             </div>
 
             <nav className={styles.header__navigation}>
@@ -37,12 +40,12 @@ const Header = ({drawerClick}) => {
                         <div className={styles.header__logoContainer}>
                             <img className={styles.header__logo} src={logo} alt="CompanyLogo"/>
                         </div>
-                       
+
                     </Link>
                     <Link to="/aboutUs">
                         <li>About Us</li>
                     </Link>
-                   
+
                     <Link to="/contactUs">
                         <li>Contact Us</li>
                     </Link>

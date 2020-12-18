@@ -70,7 +70,15 @@
 }
 .extra{
     display: none;
- 
+}
+.header__logoContainer1{
+    width: 100px;
+    height: 100%;
+    margin-right: 20px;
+}
+.header__logo1{
+    width: 100%;
+    height: 100%;
 }
 
 @media screen and (max-width: 730px){
@@ -84,10 +92,10 @@
         display: none;
     }
     .extra{
-        display: block;
-        margin-right: 50px;
-    
-        background-color: red;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
     }
     .header{
         padding-right: 0;

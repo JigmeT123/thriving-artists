@@ -1,6 +1,4 @@
 .toggleBtn{
-    height: 24px;
-    width: 36px;
     display: flex;
     background-color: #ffffff;
     justify-content: center;
@@ -9,8 +7,6 @@
     outline: none !important;
     border: none !important;
     cursor: pointer;
-    flex: 1;
-
 }
 .menuBtn{
     font-size: 40px !important;
