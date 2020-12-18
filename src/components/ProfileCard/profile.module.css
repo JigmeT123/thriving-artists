@@ -1,5 +1,5 @@
-.profileCard{
-    width: 80vw;
+.profileCard {
+    width: 85vw;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -7,45 +7,81 @@
     height: 300px;
     box-shadow: 10px 12px 5px 5px #beb5aa !important;
 }
-.profileActionArea{
+.profileActionArea {
     flex: 0.35;
     height: 100%;
 }
-.profileCardActions{
+.profileCardActions {
     flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding-left: 50px;
-    /* align-items: center; */
 }
-.galleryCardMedia{
+.galleryCardMedia {
     height: 80%;
     width: 80%;
     margin: 0 auto;
     background-size: cover !important;
 }
 
-.profileContent{
- width: 100%;   
- margin-left: -16px;
+.profileContent {
+    width: 100%;
+    margin-left: -16px;
 }
-.artistName{
+.artistName {
     font-weight: 500;
 }
-.btnProfile{
+.btnProfile {
     padding: 10px 20px !important;
-   border: 1px solid #ddc4b5 !important;
-    
+    border: 1px solid #ddc4b5 !important;
+
 }
-.btnProfile:hover{
+.btnProfile:hover {
     background-color: #ddc4b5 !important;
 }
 
-a:hover{
+a:hover {
     text-decoration: none;
 }
 
-@media screen and (max-width: 435px){
+@media screen and (max-width: 760px) {
+    .profileCard {
+        display: flex;
+        flex-direction: column;
+        margin: 10px 0;
+        height: 600px;
+        padding-bottom: 40px !important;
+    }
+    .profileActionArea {
+        flex: 0;
+        height: 350px;
+    }
+    .galleryCardMedia {
+        height: 100%;
+        width: 100%;
+        margin: 0 auto;
+        background-size: contain !important;
+    }
 
+    .profileCardActions {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 25px;
+    }
+    .artistName {
+        font-weight: 500;
+        font-size: 12px;
+    }
+    .profileCardActions > h4{
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .btnProfile {
+        padding: 5px 10px !important;
+        font-size: 12px !important;
+        border: 1px solid #ddc4b5 !important;
+    }
 }
