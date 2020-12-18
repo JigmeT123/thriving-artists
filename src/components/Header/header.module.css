@@ -33,7 +33,11 @@
     height: 9vh;
 
 }
+.header__scrolled .header__logo1{
+    transform: scale(1);
+    height: 9vh;
 
+}
 .header__navigation{
     height: 50%;
     width: 100%;
@@ -71,6 +75,7 @@
 .extra{
     display: none;
 }
+
 .header__logoContainer1{
     width: 100px;
     height: 100%;
