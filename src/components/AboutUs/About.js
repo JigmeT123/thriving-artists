@@ -1,6 +1,7 @@
 import styles from './about.module.css';
 import {Button} from '@material-ui/core';
 import AboutCard from '../aboutCard/AboutCard';
+import { Link } from 'react-router-dom';
 
 const About = () => {
     return (
@@ -9,7 +10,7 @@ const About = () => {
                 <div className={styles.aboutContentTitle}>
                     <h1>Join Our Team</h1>
                     <p>Help us on our quest to support good artists</p>
-                    <Button className={styles.supportBtn}>Artist Profile</Button>
+                    <Link to="/profile"><Button className={styles.supportBtn}>Artist Profile</Button></Link> 
                 </div>
                 <div className={styles.aboutCardContainer1}>
                     <AboutCard className={styles.card1} description="Thriving Artists is a project designed to gather young, thriving artists and art enthusiasts from all over Azerbaijan in one platform. We place the artworks of the young artists to give them an opportunity to showcase their work, to help them gain recognition and earn money by being engaged in a field they love, art."/>
