@@ -21,7 +21,7 @@
     align-items: center;
     flex-direction: column;
     margin: 0 auto;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 .aboutContent > h1{
     text-align: center;
@@ -45,7 +45,7 @@
 .aboutCardContainer1{
     display: flex;
     justify-content: space-evenly;
-    margin-top: 50px;
+    margin-top: 60px;
 }
 
 .card1{
