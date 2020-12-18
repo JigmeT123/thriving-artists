@@ -52,6 +52,7 @@
     justify-content: center;
     height: 150px;
     margin-bottom: 20px;
+    
 }
 .artistBtn{
     padding: 10px !important;
@@ -71,5 +72,103 @@
 
 span{
     color: black;
-    /* font-weight: bold; */
+}
+@media screen and (max-width: 950px){
+    .artistProfile{
+        margin-top: 12vh;
+        padding: 0px;
+        height: auto;
+        
+    }
+    .profileContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .artImageOfArtist{
+        height: 500px;
+        width: 75vw;
+        margin-top: 30px;
+        margin-left: 0;
+    }
+    .artistInfo{
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+    }
+    .artistInfoCard{
+        height: 500px;
+        width: 75vw;
+        margin-top: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 50px;
+        box-shadow: 10px 12px 5px 5px #beb5aa !important;
+    }
+    .profileInfoHeader > div{
+        padding: 0px;
+        height: 150px;
+    }
+    .profileInfoBottom{
+        margin-top: 0px;
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width: 620px){
+    .artistInfoCard{
+        height: 300px;
+        width: 60vw;
+        margin-top: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 50px;
+        box-shadow: 10px 12px 5px 5px #beb5aa !important;
+    }
+    .artImageOfArtist{
+        height: 300px;
+        width: 60vw;
+        margin-top: 30px;
+        margin-left: 0;
+    }
+    .profileInfoHeader > h1{
+        font-size: 20px !important;
+    }
+    .profileInfoHeader > div > h4{
+        font-size: 15px !important;
+    }
+    .profileInfoHeader > div > p{
+        font-size: 12px !important;
+    }
+    .profileInfoBottom > p{
+        font-size: 15px;
+    }
+    .profileInfoBottom{
+        width: 100%;
+        display: flex;
+        margin-bottom: 0;
+        justify-content: center;
+        align-items: center;
+    }
+    .artistBtn > span{
+        font-size: 10px!important;
+    }
+    .artistBtn{
+        padding: 5px 10px !important;
+        border: 1px solid#ddc4b5 !important;
+        font-size: 12px !important;
+        margin-right: 0px !important;
+    }
+    .profileInfoHeader > div{
+        padding: 0px;
+        height: 120px;
+        margin-bottom: 0!important;
+    }
 }
