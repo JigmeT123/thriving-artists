@@ -15,13 +15,13 @@ const Footer = () => {
 
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."</p>
                     <div className={styles.footerOneMediaContainer}>
-                        <a href="#" rel="noopener noreferrer" target="_blank" className={styles.footerInsta}><AiOutlineInstagram/>
+                        <a href="https://www.instagram.com/thriving.artists/" rel="noopener noreferrer" target="_blank" className={styles.footerInsta}><AiOutlineInstagram/>
                         </a>
-                        <a href="/" rel="noopener noreferrer" target="_blank" className={styles.footerFacebook}><AiFillFacebook/>
+                        <a href="https://www.instagram.com/thriving.artists/" rel="noopener noreferrer" target="_blank" className={styles.footerFacebook}><AiFillFacebook/>
                         </a>
-                        <a href="/" rel="noopener noreferrer" target="_blank" className={styles.footerTwitter}><AiOutlineTwitter/>
+                        <a href="https://www.instagram.com/thriving.artists/" rel="noopener noreferrer" target="_blank" className={styles.footerTwitter}><AiOutlineTwitter/>
                         </a>
-                        <a href="/" rel="noopener noreferrer" target="_blank" className={styles.footerLinkedin}><AiFillLinkedin/>
+                        <a href="https://www.instagram.com/thriving.artists/" rel="noopener noreferrer" target="_blank" className={styles.footerLinkedin}><AiFillLinkedin/>
                         </a>
                     </div>
                 </div>
