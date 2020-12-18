@@ -47,5 +47,14 @@
         background-size: cover !important;
         background-color: #ffffff !important;
     }
+    .artName{
+        font-size: 15px;
+    }
+    .artistName {
+        font-size: 10px;
+        color: gray;
+       
+    }
+    
 }
 

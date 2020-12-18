@@ -45,3 +45,7 @@
 a:hover{
     text-decoration: none;
 }
+
+@media screen and (max-width: 435px){
+
+}
