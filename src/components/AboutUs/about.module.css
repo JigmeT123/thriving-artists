@@ -1,7 +1,8 @@
 .about{
     margin-top: 10vh;
     width: 100vw;
-    height: 100vh;
+    height: auto;
+    
 }
 .aboutContent{
     /* background: url("https://images.prismic.io/clubhouse/fc3d0d80-44ce-43f2-b072-b3999c9d30d0_careers_hero_v3.png?auto=format%2Ccompress&rect=0%2C0%2C2710%2C1350&w=339&h=169&fit=max&q=50 339w, https://images.prismic.io/clubhouse/fc3d0d80-44ce-43f2-b072-b3999c9d30d0_careers_hero_v3.png?auto=format%2Ccompress&rect=0%2C0%2C2710%2C1350&w=678&h=338&fit=max&q=50 678w, https://images.prismic.io/clubhouse/fc3d0d80-44ce-43f2-b072-b3999c9d30d0_careers_hero_v3.png?auto=format%2Ccompress&rect=0%2C0%2C2710%2C1350&w=1355&h=675&fit=max&q=50 1355w, https://images.prismic.io/clubhouse/fc3d0d80-44ce-43f2-b072-b3999c9d30d0_careers_hero_v3.png?auto=format%2Ccompress&rect=0%2C0%2C2710%2C1350&w=2033&h=1012&fit=max&q=50 2033w, https://images.prismic.io/clubhouse/fc3d0d80-44ce-43f2-b072-b3999c9d30d0_careers_hero_v3.png?auto=format%2Ccompress&rect=0%2C0%2C2710%2C1350&w=2710&h=1350&fit=max&q=50 2710w") no-repeat; */
@@ -11,7 +12,7 @@
     background-size: contain;
     background-position: center;
     background-color: white;
-
+    padding-bottom: 50px;
 }
 .aboutContentTitle{
     width: 100%;
