@@ -1,5 +1,5 @@
 .header{
-    height: 11vh;
+    height: 13vh;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -50,7 +50,7 @@
    list-style-type: none;
    padding: 30px;
    border-radius: 3px;
-   font-size: 23px;
+   font-size: 20px;
    font-weight: 500;
 }
 
