@@ -23,6 +23,5 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    /* grid-template-columns: auto auto auto auto; */
-    /* overflow-x: scroll; */
 }
+
