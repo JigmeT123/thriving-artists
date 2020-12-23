@@ -3,9 +3,10 @@
 }
 .coverPic{
     width: 100%;
-    background: url('../../assets/cover.jpg') no-repeat;
+    background: url('../../assets/cover1.jpg') no-repeat;
     background-size: cover;
-    height: 350px;
+    background-position: center;
+    height: 400px;
 }
 .artistName{
     text-align: center;
