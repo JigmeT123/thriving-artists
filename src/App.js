@@ -1,16 +1,21 @@
-import React, { useState } from 'react';
+import{ useState } from 'react';
+
+// Components
 import Header from './components/Header/Header';
 import SideDrawer from './components/sideDrawer/SideDrawer';
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import Backdrop from './components/Backdrop/Backdrop';
 import Gallery from './components/Gallery/Gallery';
 import Footer from './components/footer/Footer';
 import ArtistProfile from './components/artistProfile/ArtistProfile';
 import Contact from './components/ContactUs/Contact';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import Profile from './components/Profile/Profile';
 import About from './components/AboutUs/About';
 import People from './components/people/People';
+//routes
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+//bootstrap
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 const App = () => {
   const [toggle, setToggle] = useState(false)
